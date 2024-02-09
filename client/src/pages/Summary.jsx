@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from "styled-components";
 import StripeCheckout from "react-stripe-checkout";
 import { useSelector } from "react-redux";
