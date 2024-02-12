@@ -126,7 +126,8 @@ const Footer = () => {
   };
 
   const handleAddressClick = () => {
-    alert("Department of Holistic Education");
+    window.location.href = "https://www.google.com/maps?ll=30.699823,76.708665&z=15&t=m&hl=en&gl=IN&mapclient=embed&cid=11525092228264433641";
+
   };
   return (
     <Container>
@@ -185,21 +186,22 @@ const Footer = () => {
           <Room style={{ marginRight: "10px" }} /> Department of Holistic
           Education
         </ContactItem>
-        <ContactItem onClick={() => handlePhoneClick("+91 9518100916")}>
-          <Phone style={{ marginRight: "10px" }} /> +91 9518100916
+        <ContactItem onClick={() => handlePhoneClick("+91 9417050631")}>
+          <Phone style={{ marginRight: "10px" }} /> +91 9417050631
         </ContactItem>
-        <ContactItem onClick={() => handlePhoneClick("+91 8119963399")}>
-          <Phone style={{ marginRight: "10px" }} /> +91 8119963399
+        <ContactItem onClick={() => handlePhoneClick("+91 7627888222")}>
+          <Phone style={{ marginRight: "10px" }} /> +91 7627888222
         </ContactItem>
-        <ContactItem onClick={() => handleEmailClick("ykj131@gmail.com")}>
+        <ContactItem onClick={() => handleEmailClick("director@dhe.org.in")}>
           <MailOutline style={{ marginRight: "10px" }} />{" "}
-          er.yogeshjangra1@gmail.com
+          director@dhe.org.in
         </ContactItem>
+        {/* 7627888222 | 7903431900 |  */}
         <ContactItem
-          onClick={() => handleEmailClick("manisaroychowdhury@gmail.com")}
+          onClick={() => handleEmailClick("dhe2021vb@gmail.com")}
         >
           <MailOutline style={{ marginRight: "10px" }} />{" "}
-          manisaroychowdhury@gmail.com
+          dhe2021vb@gmail.com
         </ContactItem>
         <Payment src="http://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
