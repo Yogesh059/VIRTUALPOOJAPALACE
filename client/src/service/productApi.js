@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL='http://localhost:5000/api/';
+const URL='https://virtual-pooja-palace-api.vercel.app/api/';
 
 //product api
 
