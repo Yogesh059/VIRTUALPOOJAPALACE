@@ -101,8 +101,8 @@ const Products = ({ cat, filters, sort }) => {
     try {
       const res = await axios.get(
         cat
-          ? `http://localhost:5000/api/products?category=${cat}`
-          : "http://localhost:5000/api/products"
+          ? `https://virtual-pooja-palace-api.vercel.app/api/products?category=${cat}`
+          : "https://virtual-pooja-palace-api.vercel.app/api/products"
       );
       setProducts(res.data);
     } catch (e) {
